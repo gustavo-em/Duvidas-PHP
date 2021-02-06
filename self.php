@@ -12,8 +12,7 @@ class A {
 class B {
     public static $a = 1; //Propriedade estática = pode acessar ela sem precisar instanciar.
     static function exemplo(){           //public pode acessar em qualquer lugar por um obj
-        echo "Sou B ". self::$a."<br>";  //private
-
+        echo "Sou B ". self::$a."<br>";  //private nem mesmo as classes filhas poderão mudar.
     }
 }
 
