@@ -14,7 +14,7 @@ class B extends A {
          echo "Sou B"."<br>";
          A::example();
          parent::example(); //precisa ser dentro de uma função, pois classe só aceitam metodos e
-                            //atributos e não era entender A::exemplo fora de uma função.
+                            //atributos e não vai entender A::exemplo fora de uma função.
          
     }
     
